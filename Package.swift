@@ -11,3 +11,5 @@ let package = Package(
        .tvOS(.v13),
        .macCatalyst(.v14),
        .driverKit(.v20),
+    ],
+    products: [
