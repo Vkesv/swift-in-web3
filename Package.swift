@@ -13,3 +13,5 @@ let package = Package(
        .driverKit(.v20),
     ],
     products: [
+        .library(
+            name: "Web3",
