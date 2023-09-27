@@ -15,3 +15,5 @@ let package = Package(
     products: [
         .library(
             name: "Web3",
+            targets: ["Web3"]),
+        .library(
