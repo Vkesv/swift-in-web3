@@ -17,3 +17,5 @@ let package = Package(
             name: "Web3",
             targets: ["Web3"]),
         .library(
+            name: "Web3PromiseKit",
+            targets: ["Web3PromiseKit"]),
