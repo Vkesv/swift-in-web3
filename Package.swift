@@ -21,3 +21,6 @@ let package = Package(
             targets: ["Web3PromiseKit"]),
         .library(
             name: "Web3ContractABI",
+            targets: ["Web3ContractABI"]),
+    ],
+    dependencies: [
