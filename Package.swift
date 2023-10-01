@@ -24,3 +24,5 @@ let package = Package(
             targets: ["Web3ContractABI"]),
     ],
     dependencies: [
+        // Core dependencies
+        .package(url: "https://github.com/attaswift/BigInt.git", from: "5.3.0"),
