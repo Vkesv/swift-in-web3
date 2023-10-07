@@ -32,3 +32,4 @@ let package = Package(
         .package(url: "https://github.com/vapor/websocket-kit", .upToNextMajor(from: "2.6.1")),
 
         // PromiseKit dependency
+        .package(url: "https://github.com/mxcl/PromiseKit.git", from: "6.18.1"),
