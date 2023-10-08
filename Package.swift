@@ -33,3 +33,6 @@ let package = Package(
 
         // PromiseKit dependency
         .package(url: "https://github.com/mxcl/PromiseKit.git", from: "6.18.1"),
+
+        // Test dependencies
+        .package(url: "https://github.com/Quick/Quick.git", from: "5.0.1"),
