@@ -40,3 +40,5 @@ let package = Package(
     ],
     targets: [
         .target(
+            name: "Web3",
+            dependencies: [
