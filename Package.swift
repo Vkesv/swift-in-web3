@@ -42,3 +42,4 @@ let package = Package(
         .target(
             name: "Web3",
             dependencies: [
+                .product(name: "BigInt", package: "BigInt"),
