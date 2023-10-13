@@ -43,3 +43,4 @@ let package = Package(
             name: "Web3",
             dependencies: [
                 .product(name: "BigInt", package: "BigInt"),
+                .product(name: "CryptoSwift", package: "CryptoSwift"),
