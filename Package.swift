@@ -48,3 +48,4 @@ let package = Package(
                 .product(name: "Collections", package: "swift-collections"),
                 .product(name: "WebSocketKit", package: "websocket-kit"),
             ],
+            path: "Sources",
