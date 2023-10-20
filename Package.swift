@@ -51,3 +51,5 @@ let package = Package(
             path: "Sources",
             sources: ["Core", "FoundationHTTP"]),
         .target(
+            name: "Web3PromiseKit",
+            dependencies: [
