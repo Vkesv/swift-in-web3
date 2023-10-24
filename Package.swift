@@ -59,3 +59,5 @@ let package = Package(
             ],
             path: "Sources",
             sources: ["PromiseKit"]),
+        .target(
+            name: "Web3ContractABI",
