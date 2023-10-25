@@ -61,3 +61,5 @@ let package = Package(
             sources: ["PromiseKit"]),
         .target(
             name: "Web3ContractABI",
+            dependencies: [
+                .target(name: "Web3"),
