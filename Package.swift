@@ -63,3 +63,5 @@ let package = Package(
             name: "Web3ContractABI",
             dependencies: [
                 .target(name: "Web3"),
+                .product(name: "BigInt", package: "BigInt"),
+                .product(name: "CryptoSwift", package: "CryptoSwift"),
