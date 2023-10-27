@@ -65,3 +65,5 @@ let package = Package(
                 .target(name: "Web3"),
                 .product(name: "BigInt", package: "BigInt"),
                 .product(name: "CryptoSwift", package: "CryptoSwift"),
+            ],
+            path: "Sources",
