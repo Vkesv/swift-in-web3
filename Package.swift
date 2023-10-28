@@ -67,3 +67,5 @@ let package = Package(
                 .product(name: "CryptoSwift", package: "CryptoSwift"),
             ],
             path: "Sources",
+            sources: ["ContractABI"]),
+        .testTarget(
