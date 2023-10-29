@@ -69,3 +69,4 @@ let package = Package(
             path: "Sources",
             sources: ["ContractABI"]),
         .testTarget(
+            name: "Web3Tests",
