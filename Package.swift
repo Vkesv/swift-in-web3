@@ -70,3 +70,5 @@ let package = Package(
             sources: ["ContractABI"]),
         .testTarget(
             name: "Web3Tests",
+            dependencies: [
+                .target(name: "Web3"),
