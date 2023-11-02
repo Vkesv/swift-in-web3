@@ -72,3 +72,5 @@ let package = Package(
             name: "Web3Tests",
             dependencies: [
                 .target(name: "Web3"),
+                .target(name: "Web3PromiseKit"),
+                .target(name: "Web3ContractABI"),
