@@ -74,3 +74,4 @@ let package = Package(
                 .target(name: "Web3"),
                 .target(name: "Web3PromiseKit"),
                 .target(name: "Web3ContractABI"),
+                .product(name: "Quick", package: "Quick"),
