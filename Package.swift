@@ -77,3 +77,5 @@ let package = Package(
                 .product(name: "Quick", package: "Quick"),
                 .product(name: "Nimble", package: "Nimble"),
             ]),
+    ],
+    swiftLanguageVersions: [.v5]
