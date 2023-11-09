@@ -3,3 +3,5 @@ name: Build and Test
 on: [push]
 
 concurrency:
+  group: build_and_test_group_${{ github.ref }}
+  cancel-in-progress: true
