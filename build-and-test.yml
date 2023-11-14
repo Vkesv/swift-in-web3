@@ -16,3 +16,6 @@ jobs:
 
     steps:
       # Checkout Step
+      - uses: actions/checkout@v1
+
+      # Dependencies
