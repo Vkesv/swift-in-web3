@@ -21,3 +21,5 @@ jobs:
       # Dependencies
       - name: Install Dependencies
         env:
+          OS_ENUM: ${{ matrix.os }}
+        run: |
