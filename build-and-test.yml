@@ -23,3 +23,5 @@ jobs:
         env:
           OS_ENUM: ${{ matrix.os }}
         run: |
+          if [ $OS_ENUM == "macos-latest" ]; then
+            echo "macOS build. swiftenv will not be installed.";
