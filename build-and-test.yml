@@ -25,3 +25,6 @@ jobs:
         run: |
           if [ $OS_ENUM == "macos-latest" ]; then
             echo "macOS build. swiftenv will not be installed.";
+            echo "Installing llvm for test coverage conversion.";
+
+            brew install llvm;
