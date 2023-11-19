@@ -28,3 +28,5 @@ jobs:
             echo "Installing llvm for test coverage conversion.";
 
             brew install llvm;
+          else
+            echo "Installing Linux Swift dependencies.";
