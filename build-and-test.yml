@@ -30,3 +30,4 @@ jobs:
             brew install llvm;
           else
             echo "Installing Linux Swift dependencies.";
+            sudo apt-get -q install -y libz3-4;
