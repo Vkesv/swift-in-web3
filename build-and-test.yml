@@ -31,3 +31,6 @@ jobs:
           else
             echo "Installing Linux Swift dependencies.";
             sudo apt-get -q install -y libz3-4;
+
+            echo "Installing swiftenv and Swift version specified in .swift-version.";
+            git clone https://github.com/kylef/swiftenv.git ~/.swiftenv;
