@@ -40,3 +40,6 @@ jobs:
 
             swiftenv install $(cat .swift-version);
           fi
+
+      # Build Step
+      - name: Build development
