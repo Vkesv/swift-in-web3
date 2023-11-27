@@ -43,3 +43,5 @@ jobs:
 
       # Build Step
       - name: Build development
+        run: swift build
+      - name: Build production
