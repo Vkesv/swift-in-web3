@@ -45,3 +45,4 @@ jobs:
       - name: Build development
         run: swift build
       - name: Build production
+        run: swift build -c release
