@@ -46,3 +46,6 @@ jobs:
         run: swift build
       - name: Build production
         run: swift build -c release
+
+      # Test Step
+      - name: Unit Tests
