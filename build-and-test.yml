@@ -49,3 +49,6 @@ jobs:
 
       # Test Step
       - name: Unit Tests
+        run: swift test --enable-code-coverage
+
+      # Upload test coverage (only once, on macOS)
