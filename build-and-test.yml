@@ -52,3 +52,5 @@ jobs:
         run: swift test --enable-code-coverage
 
       # Upload test coverage (only once, on macOS)
+      - name: Generate codecov coverage format
+        if: ${{ matrix.os == 'macos-latest' }}
