@@ -54,3 +54,5 @@ jobs:
       # Upload test coverage (only once, on macOS)
       - name: Generate codecov coverage format
         if: ${{ matrix.os == 'macos-latest' }}
+        run: xcrun llvm-cov export -format="lcov" .build/debug/Web3PackageTests.xctest/Contents/MacOS/Web3PackageTests -instr-profile .build/debug/codecov/default.profdata > info.lcov
+      - name: Upload Test Coverage
