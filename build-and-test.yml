@@ -59,3 +59,5 @@ jobs:
         uses: codecov/codecov-action@v3
         uses: codecov/codecov-action@v3
         if: ${{ matrix.os == 'macos-latest' }}
+        with:
+          files: ./info.lcov
