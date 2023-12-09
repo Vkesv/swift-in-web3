@@ -62,3 +62,4 @@ jobs:
         with:
           files: ./info.lcov
           fail_ci_if_error: true
+          verbose: true
