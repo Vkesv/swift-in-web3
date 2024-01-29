@@ -14,3 +14,4 @@ build/
 xcuserdata/
 *.xccheckout
 profile
+*.moved-aside
