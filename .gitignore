@@ -26,3 +26,5 @@ DerivedData
 # Carthage/Checkouts
 
 Carthage/Build
+
+# We recommend against adding the Pods directory to your .gitignore. However
